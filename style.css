@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+.main {
+    width: 60%;
+}
+
+@media screen and (min-width: 1377px) {
+    .main {
+        width: 25%;
+    }
+}
+
+body, html {
+
+    overflow: scroll;
+    overflow-x: hidden;
+    background-image: linear-gradient(135deg, #242424, #0c0e1a);
+}
+
+body
+{
+    font-family: "Lato";
+    margin: 0;
+    width: auto;
+    height: 100vh;
+    scrollbar-color: rgba(0,0,0,0);
+    color: #fff;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+
+.highlight {
+    color: #546eff;
+}
+
+.highlight:hover {
+    cursor: pointer;
+}
+
+.cat {
+    width: 100%;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin: 20px auto;
+    text-align: center;
+    display: block;
+}
+
+.cont {
+    padding: 1.5rem;
+}
+.pfp {
+    width: 5rem;
+    border-radius: 50%;
+    margin: 1rem;
+}
+
+.social {
+    margin: 5px;
+    height: 3rem;
+    width: fit-content;
+    padding-inline: 2rem;
+    padding-bottom: 6px;
+    font-size: 25px;
+    text-align: center;
+    color: #fff;
+    border: 1px solid #0a0a14;
+    background-color: #0a0a14;
+    border-radius: 10px;
+}
+
+.social:hover {
+    cursor: pointer;
+}
